@@ -5,6 +5,6 @@ Projects shared on Intagram & YouTube.<br>
 ## Instagram
 
 <details>
-  
-  [Asthetic landing page]()
+  <summary>Aesthetic Product Landing Page</summary>
+  [Open]()
 </details>
