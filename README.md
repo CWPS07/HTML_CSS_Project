@@ -13,24 +13,24 @@ Projects shared on Intagram & YouTube.<br>
 <details>
   <summary>Glassmorphism</summary>
   
-  [Click]()
+  [Click](https://github.com/CWPS07/HTML-CSS-project/tree/6c2991c22ef5aeb427a91e9961ddc53e9a9deb7a/Glassmorphism)
 </details>
 
 <details>
   <summary>Professional Profile Card</summary>
   
-  [Click]()
+  [Click](https://github.com/CWPS07/HTML-CSS-project/tree/6c2991c22ef5aeb427a91e9961ddc53e9a9deb7a/Professional%20Profile%20Card)
 </details>
 
 <details>
   <summary>Theme Switcher</summary>
   
-  [Click]()
+  [Click](https://github.com/CWPS07/HTML-CSS-project/tree/6c2991c22ef5aeb427a91e9961ddc53e9a9deb7a/Theme%20Switcher)
 </details>
 
 <details>
   <summary>codewithps07 Stats</summary>
   
-  [Click]()
+  [Click](https://github.com/CWPS07/HTML-CSS-project/tree/6c2991c22ef5aeb427a91e9961ddc53e9a9deb7a/codewithps07%20%20Stats)
 </details>
 
