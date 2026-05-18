@@ -1,3 +1,10 @@
 # HTML-CSS-project
-All projects shared on Intagram & YouTube.<br>
+Projects shared on Intagram & YouTube.<br>
 @codewithps07<br>
+
+## Instagram
+
+<details>
+  
+  [Asthetic landing page]()
+</details>
