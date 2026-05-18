@@ -1,0 +1,68 @@
+:root {
+    --bg-color: #f8fafc;
+    --card-bg: #ffffff;
+    --text-color: #0f172a;
+    --brand-color: #38bdf8;
+    --border-color: #e2e8f0;
+}
+
+.dark-theme {
+    --bg-color: #0f172a;
+    --card-bg: #1e293b;
+    --text-color: #f8fafc;
+    --border-color: #334155;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+    transition: background 0.3s ease, color 0.3s ease;
+    /* Smooth transition effect */
+}
+
+body {
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    background-color: var(--card-bg);
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+    width: 340px;
+    padding: 40px 30px;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.card h2 span {
+    color: var(--brand-color);
+}
+
+.card p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-top: 15px;
+    opacity: 0.8;
+}
+
+.toggle-btn {
+    background: transparent;
+    border: none;
+    font-size: 28px;
+    color: var(--text-color);
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: transform 0.2s;
+}
+
+.toggle-btn:active {
+    transform: scale(0.9);
+}
