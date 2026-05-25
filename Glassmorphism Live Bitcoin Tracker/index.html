@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glassmorphism Live Tracker</title>
+    <!-- FontAwesome for the crypto icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Linking the external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div class="glow-circle"></div>
+
+    <div class="glass-card">
+
+        <div class="card-header">
+            <div class="coin-title">
+                <i class="fa-brands fa-bitcoin"></i>
+                <span>Bitcoin</span>
+            </div>
+            <span>Live USD</span>
+        </div>
+
+        <div class="price-display" id="crypto-price">$00,000</div>
+
+        <div class="status-container">
+            <div class="pulse-dot"></div>
+            <span>Auto-updating live</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
