@@ -1,1 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
 
+body {
+    background-color: #0b0f19;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.tracker-container {
+    width: 100%;
+    max-width: 550px;
+}
+
+.tracker-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.tracker-header h2 span {
+    color: #10b981;
+    /* Neon Crypto Green */
+}
+
+.tracker-header p {
+    color: #64748b;
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+
+/* Grid Layout */
+.crypto-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.crypto-card {
+    background-color: #141b2d;
+    border: 1px solid #222f4b;
+    padding: 25px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.2s, border-color 0.2s;
+}
+
+.crypto-card:hover {
+    transform: translateY(-2px);
+    border-color: #38bdf8;
+}
+
+.card-top {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.coin-icon {
+    font-size: 32px;
+}
+
+.btc-color {
+    color: #f7931a;
+}
+
+.eth-color {
+    color: #627eea;
+}
+
+.crypto-card h3 {
+    font-size: 1.2rem;
+}
+
+.crypto-card .symbol {
+    color: #64748b;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    margin-left: 5px;
+}
+
+.price-display {
+    font-size: 1.4rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    transition: color 0.2s;
+}
+
+.pulse {
+    color: #10b981;
+    animation: flash 0.5s ease-in-out;
+}
+
+@keyframes flash {
+    0% {
+        opacity: 0.5;
+        transform: scale(0.98);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
