@@ -1,1 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Crypto Tracker | codewithps07</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</head>
+
+<body>
+
+    <div class="tracker-container">
+        <header class="tracker-header">
+            <h2>live<span>crypto</span>.tracker</h2>
+            <p>Real-time data fetched via API by codewithps07</p>
+        </header>
+
+        <div class="crypto-grid">
+            <div class="crypto-card" id="bitcoin">
+                <div class="card-top">
+                    <ion-icon name="logo-bitcoin" class="coin-icon btc-color"></ion-icon>
+                    <h3>Bitcoin <span class="symbol">BTC</span></h3>
+                </div>
+                <div class="price-display">$<span class="price">Loading...</span></div>
+            </div>
+
+            <div class="crypto-card" id="ethereum">
+                <div class="card-top">
+                    <ion-icon name="diamond-outline" class="coin-icon eth-color"></ion-icon>
+                    <h3>Ethereum <span class="symbol">ETH</span></h3>
+                </div>
+                <div class="price-display">$<span class="price">Loading...</span></div>
+            </div>
+        </div>
+        </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
