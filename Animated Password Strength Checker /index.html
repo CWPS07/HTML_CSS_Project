@@ -1,1 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Password Strength Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Password Strength Checker</h1>
+
+        <div class="input-box">
+            <input type="password" id="password" placeholder="Enter Password">
+            <span id="toggle">👁</span>
+        </div>
+
+        <div class="strength-bar">
+            <div id="strength-fill"></div>
+        </div>
+
+        <p id="strength-text">Type a password...</p>
+
+        <ul class="rules">
+            <li id="length">❌ Minimum 8 Characters</li>
+            <li id="uppercase">❌ One Uppercase Letter</li>
+            <li id="number">❌ One Number</li>
+            <li id="special">❌ One Special Character(@&#$)</li>
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
