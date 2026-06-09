@@ -1,0 +1,44 @@
+<html>
+  <head><title>Music Player UI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="player-bg">
+  <div class="sidebar">
+    <div class="sidebar-title">Playlist</div>
+    <div id="trackList"></div>
+  </div>
+  <div class="main">
+    <div class="art-wrap">
+      <canvas id="artCanvas"></canvas>
+      <canvas class="viz" id="vizCanvas"></canvas>
+    </div>
+    <div class="now-playing">
+      <div class="song-title" id="songTitle">Loading...</div>
+      <div class="song-artist" id="songArtist">Artist</div>
+    </div>
+    <div class="progress-wrap">
+      <span class="time" id="elapsed">0:00</span>
+      <div class="prog-bar" id="progBar" onclick="seek(event)">
+        <div class="prog-fill" id="progFill" style="width:0%"></div>
+      </div>
+      <span class="time" id="duration">0:00</span>
+    </div>
+    <div class="controls">
+      <button class="ctrl-btn" id="shuffleBtn" onclick="toggleShuffle()" title="Shuffle">⇄</button>
+      <button class="ctrl-btn" onclick="prev()">⏮</button>
+      <button class="play-btn" id="playBtn" onclick="togglePlay()">▶</button>
+      <button class="ctrl-btn" onclick="next()">⏭</button>
+      <button class="ctrl-btn" id="repeatBtn" onclick="toggleRepeat()" title="Repeat">↺</button>
+    </div>
+    <div class="vol-row">
+      <span class="vol-icon">🔈</span>
+      <input type="range" class="vol" min="0" max="100" value="70" oninput="setVol(this.value)">
+      <span class="vol-icon">🔊</span>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
