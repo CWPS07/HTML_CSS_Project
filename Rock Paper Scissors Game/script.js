@@ -7,9 +7,9 @@ let currentPlayer = 1;
 let player1Choice = "";
 
 // SOUNDS
-const clickSound = new Audio("sounds/click.wav");
-const winSound = new Audio("sounds/win.wav");
-const loseSound = new Audio("sounds/lose.wav");
+const clickSound = new Audio("click.wav");
+const winSound = new Audio("win.wav");
+const loseSound = new Audio("lose.wav");
 
 function setMode(mode){
 
