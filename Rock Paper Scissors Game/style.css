@@ -1,0 +1,146 @@
+body {
+    font-family: Arial,
+    sans-serif;
+    background: #0f172a;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #38bdf8;
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.mode-container {
+    margin-bottom: 20px;
+}
+
+.mode-btn {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #38bdf8;
+    color: black;
+    font-weight: bold;
+}
+
+.scoreboard {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 30px;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 15px 30px;
+    border-radius: 20px;
+}
+
+.score-box {
+    text-align: center;
+}
+
+.score {
+    font-size: 3rem;
+    color: #4ade80;
+}
+
+.red {
+    color: #f43f5e;
+}
+
+.arena {
+    display: flex;
+    gap: 60px;
+    margin-bottom: 30px;
+}
+
+.choice-display {
+    text-align: center;
+}
+
+.battle-icon {
+    font-size: 5rem;
+    margin-top: 10px;
+}
+
+.result-banner {
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    gap: 20px;
+}
+
+.game-btn {
+    font-size: 3rem;
+    padding: 20px;
+    border-radius: 20px;
+    border: 3px solid #38bdf8;
+    background: #1e293b;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.game-btn:hover {
+    transform: scale(1.1);
+    background: #334155;
+}
+
+.game-btn:active {
+    transform: scale(0.95);
+}
+
+.reset-btn {
+    margin-top: 25px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 12px;
+    background: #f43f5e;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.win {
+    color: #4ade80;
+}
+
+.lose {
+    color: #f43f5e;
+}
+
+.tie {
+    color: #ffffff;
+}
+
+@media(max-width:600px) {
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .arena {
+        gap: 20px;
+    }
+
+    .game-btn {
+        font-size: 2rem;
+        padding: 15px;
+    }
+
+    .scoreboard {
+        gap: 20px;
+    }
+}
