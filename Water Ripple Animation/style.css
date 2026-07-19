@@ -1,1 +1,37 @@
+  html,
+  body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+      background: #04303f;
+  }
 
+  #stage {
+      position: relative;
+      width: 100%;
+      height: 100%;
+  }
+
+  canvas {
+      display: block;
+      width: 100%;
+      height: 100%;
+      cursor: crosshair;
+      touch-action: none;
+  }
+
+  #hint {
+      position: absolute;
+      top: 18px;
+      left: 50%;
+      transform: translateX(-50%);
+      color: #eafffb;
+      opacity: 0.6;
+      font: 13px/1.4 Georgia, serif;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      pointer-events: none;
+      user-select: none;
+      transition: opacity 1s ease;
+  }
