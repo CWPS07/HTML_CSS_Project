@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Liquid Blobs</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<svg class="goo-defs">
+  <filter id="goo">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="16" result="blur" />
+    <feColorMatrix in="blur" mode="matrix"
+      values="1 0 0 0 0
+              0 1 0 0 0
+              0 0 1 0 0
+              0 0 0 24 -10" result="goo" />
+    <feBlend in="SourceGraphic" in2="goo" />
+  </filter>
+</svg>
+
+<div class="container" id="container">
+  <div class="bg-layer"></div>
+  <div class="stage" id="stage">
+    <div class="blob b1" id="blob1"></div>
+    <div class="blob b2" id="blob2"></div>
+  </div>
+  <div class="label"></div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
